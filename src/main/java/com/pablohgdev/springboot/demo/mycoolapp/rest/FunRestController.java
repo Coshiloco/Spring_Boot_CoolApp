@@ -31,4 +31,9 @@ public class FunRestController {
         return teamName;
     }
 
+    @GetMapping("/verifiedCompiled")
+    public String sayVerified() {
+        return "Verified";
+    }
+
 }
